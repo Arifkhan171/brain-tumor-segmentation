@@ -1,0 +1,50 @@
+# Model weight files — too large for GitHub (stored on Google Drive)
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.weights
+*.onnx
+
+# Trained model files
+models/
+saved_models/
+checkpoints/
+
+# XGBoost model
+*.ubj
+*.json
+
+# IDE files
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Auto-generated database (recreated on first run)
+radiology_followup.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large dataset files
+*.nii.gz.bak
+*.npy
+*.npz
+
+# Logs
+*.log
+logs/
