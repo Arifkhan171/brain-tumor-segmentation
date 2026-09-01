@@ -12,25 +12,29 @@ MODELS
    - Architecture: DynUNet (nnU-Net style)
    - Training: BraTS 2020 dataset
    - Performance: WT ~89%, TC ~85%, ET ~77% Dice
+link = https://drive.google.com/file/d/1mkwERr6WVcVsVkPU8smGIBfJpQXrllIH/view?usp=drive_link
 
 2. SwinUNETR Model (swinunetr_model.pt)
    - Architecture: Swin Transformer UNETR
    - Training: BraTS 2020 dataset
    - Performance: WT ~91%, TC ~87%, ET ~79% Dice
+link= https://drive.google.com/file/d/11ujvJyhTjGCy9JU6oksNRCRpjfVxDKSn/view?usp=drive_link
 
 3. SegResNet Model (segresnet_model.pt)
    - Architecture: SegResNet
    - Training: BraTS 2020 dataset
    - Performance: WT ~90%, TC ~86%, ET ~78% Dice
+link = https://drive.google.com/file/d/1fJqCl3M0cUdJcQuijn_fP7_MlDchfvAN/view?usp=drive_link
+
 
 4. XGBoost Grade Classifier (xgboost_grade_model.pkl)
    - Task: Tumor grade prediction (HGG vs LGG)
    - Features: 30+ radiomics features from segmentation
    - Cross-validation accuracy: reported in thesis
-
+link = https://drive.google.com/file/d/13haIg8oFn2cDCKciL8pjrboD2lIHImF7/view?usp=drive_link
 DOWNLOAD MODELS
 ---------------
-Google Drive: [LINK TO BE ADDED BY REPOSITORY OWNER]
+
 
 TO RUN THE PROJECT
 ------------------
