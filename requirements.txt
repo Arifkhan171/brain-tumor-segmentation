@@ -1,0 +1,36 @@
+# NeuroAI — Brain Tumour MRI Analysis System
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# NOTE: PyTorch — install the correct version for your hardware first:
+#   CPU only : pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   CUDA 11.8: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#   CUDA 12.1: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+# ── Core framework ───────────────────────────────────────────
+streamlit==1.35.0
+# ── Deep learning ────────────────────────────────────────────
+# torch  ← install separately (see note above)
+monai[all]==1.3.0
+torchvision
+# ── Medical imaging ──────────────────────────────────────────
+nibabel==5.0.0
+# ── ML / Data science ────────────────────────────────────────
+numpy<2.0
+scipy==1.11.1
+scikit-learn==1.3.0
+scikit-image==0.21.0
+xgboost==2.0.0
+pandas==2.0.3
+joblib==1.3.1
+
+# ── Visualisation ────────────────────────────────────────────
+plotly==5.18.0
+matplotlib==3.7.2
+seaborn==0.13.0
+
+# ── PDF report generation ────────────────────────────────────
+fpdf2==2.7.4
+
+# ── Optional: SHAP explanations ──────────────────────────────
+shap==0.44.0

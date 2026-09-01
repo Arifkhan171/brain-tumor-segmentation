@@ -1,0 +1,45 @@
+NEUROAI — MODEL WEIGHTS STORAGE
+================================
+
+Model weight files are not stored in this repository.
+GitHub has a 100MB file size limit. Each model is 150MB+.
+
+All trained models are stored securely on Google Drive.
+
+MODELS
+------
+1. DynUNet Model (dynunet_model.pt)
+   - Architecture: DynUNet (nnU-Net style)
+   - Training: BraTS 2020 dataset
+   - Performance: WT ~89%, TC ~85%, ET ~77% Dice
+
+2. SwinUNETR Model (swinunetr_model.pt)
+   - Architecture: Swin Transformer UNETR
+   - Training: BraTS 2020 dataset
+   - Performance: WT ~91%, TC ~87%, ET ~79% Dice
+
+3. SegResNet Model (segresnet_model.pt)
+   - Architecture: SegResNet
+   - Training: BraTS 2020 dataset
+   - Performance: WT ~90%, TC ~86%, ET ~78% Dice
+
+4. XGBoost Grade Classifier (xgboost_grade_model.pkl)
+   - Task: Tumor grade prediction (HGG vs LGG)
+   - Features: 30+ radiomics features from segmentation
+   - Cross-validation accuracy: reported in thesis
+
+DOWNLOAD MODELS
+---------------
+Google Drive: [LINK TO BE ADDED BY REPOSITORY OWNER]
+
+TO RUN THE PROJECT
+------------------
+1. Download all model files from Google Drive link above
+2. Create a folder named: models/
+3. Place all downloaded files inside models/
+4. Install dependencies: pip install -r requirements.txt
+5. Run: streamlit run app.py
+
+CONTACT
+-------
+For model access contact: arif.cs.bs@gmail.com
